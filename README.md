@@ -246,8 +246,7 @@ Exemple :
 
 Toutes les heures :
 
-```python
-schedule.every().hour.do(run_pipeline)
+```pytho schedule.every().hour.do(run_pipeline)
 ```
 
 ---
