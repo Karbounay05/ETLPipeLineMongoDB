@@ -1,0 +1,22 @@
+[
+    {
+        "store_id": 1,
+        "city": "Paris",
+        "country": "France"
+    },
+    {
+        "store_id": 2,
+        "city": "London",
+        "country": "UK"
+    },
+    {
+        "store_id": 3,
+        "city": "Berlin",
+        "country": "Germany"
+    },
+    {
+        "store_id": 4,
+        "city": "Madrid",
+        "country": "Spain"
+    }
+]

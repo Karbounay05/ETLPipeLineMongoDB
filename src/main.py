@@ -4,6 +4,7 @@ from config import MONGO_URI, DATABASE_NAME
 from extract.api_extract import extract_api_data
 from extract.csv_extract import extract_csv_data
 from extract.sqlite_extract import extract_sqlite_data
+from src.extract.json_extract import extract_json_data
 
 from transform.transform import clean_dataframe
 
@@ -46,6 +47,27 @@ def main():
         load_to_mongo(sales_df, "sales")
         load_to_mongo(employee_df, "employees")
 
+        #----
+        products_df = clean_dataframe(
+            extract_json_data("data/products.json")
+        )
+
+        stores_df = clean_dataframe(
+            extract_json_data("data/stores.json")
+        )
+
+        categories_df = clean_dataframe(
+            extract_json_data("data/categories.json")
+        )
+
+        suppliers_df = clean_dataframe(
+            extract_json_data("data/suppliers.json")
+        )
+
+        load_to_mongo(products_df, "products")
+        load_to_mongo(stores_df, "stores")
+        load_to_mongo(categories_df, "categories")
+        load_to_mongo(suppliers_df, "suppliers")
         # -------------------------
         # Create Unified Warehouse
         # -------------------------

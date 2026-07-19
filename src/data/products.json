@@ -1,0 +1,32 @@
+[
+    {
+        "product_id": 101,
+        "product": "Laptop",
+        "category": "Electronics",
+        "brand": "Dell"
+    },
+    {
+        "product_id": 102,
+        "product": "Mouse",
+        "category": "Accessories",
+        "brand": "Logitech"
+    },
+    {
+        "product_id": 103,
+        "product": "Keyboard",
+        "category": "Accessories",
+        "brand": "HP"
+    },
+    {
+        "product_id": 104,
+        "product": "Monitor",
+        "category": "Electronics",
+        "brand": "Samsung"
+    },
+    {
+        "product_id": 105,
+        "product": "Headphones",
+        "category": "Audio",
+        "brand": "Sony"
+    }
+]

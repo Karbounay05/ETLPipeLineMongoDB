@@ -1,0 +1,14 @@
+[
+    {
+        "category": "Electronics",
+        "tax": 20
+    },
+    {
+        "category": "Accessories",
+        "tax": 15
+    },
+    {
+        "category": "Audio",
+        "tax": 18
+    }
+]
