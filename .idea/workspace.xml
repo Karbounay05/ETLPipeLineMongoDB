@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6254d5-f86e-465a-9806-0963e48351d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ETL PipeLine MongoDB.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analytics/aggregation_queries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/company.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/sales.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extract/api_extract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extract/csv_extract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extract/sqlite_extract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/load/mongo_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler/scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transform/transform.py" afterDir="false" />
+    <list default="true" id="9c6254d5-f86e-465a-9806-0963e48351d1" name="Changes" comment="commit read me">
+      <change afterPath="$PROJECT_DIR$/src/data/create_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analytics/aggregation_queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analytics/aggregation_queries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/company.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/company.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/sales.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/sales.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extract/api_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract/api_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extract/csv_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract/csv_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extract/sqlite_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/extract/sqlite_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/load/mongo_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/load/mongo_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scheduler/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduler/scheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transform/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/transform/transform.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Karbounay05"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Karbounay05/ETLPipeLineMongoDB.git",
+    "accountId": "ba58102b-d251-458e-98f5-83bcd5658058"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -63,6 +69,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.aggregation_queries.executor": "Run",
+    "Python.api_extract.executor": "Run",
+    "Python.create_database.executor": "Run",
     "Python.csv_extract.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -90,7 +99,29 @@
       <option name="presentableId" value="Default" />
       <updated>1784367373426</updated>
     </task>
+    <task id="LOCAL-00001" summary="MongoDB project">
+      <option name="closed" value="true" />
+      <created>1784460988995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784460988995</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit read me">
+      <option name="closed" value="true" />
+      <created>1784461109374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784461109374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MongoDB project" />
+    <MESSAGE value="commit read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit read me" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

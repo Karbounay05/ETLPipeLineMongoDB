@@ -1,15 +1,17 @@
 import sqlite3
 import pandas as pd
 
-def extract_sqlite(db_path):
+def extract_sqlite_data():
 
-    conn = sqlite3.connect(db_path)
+    conn = sqlite3.connect("data/company.db")
 
-    df = pd.read_sql_query(
+    df = pd.read_sql(
         "SELECT * FROM employees",
         conn
     )
 
     conn.close()
+
+    print(f"Extracted {len(df)} employees")
 
     return df
