@@ -4,7 +4,7 @@ from config import MONGO_URI, DATABASE_NAME
 from extract.api_extract import extract_api_data
 from extract.csv_extract import extract_csv_data
 from extract.sqlite_extract import extract_sqlite_data
-from src.extract.json_extract import extract_json_data
+from extract.json_extract import extract_json_data
 
 from transform.transform import clean_dataframe
 
@@ -49,19 +49,19 @@ def main():
 
         #----
         products_df = clean_dataframe(
-            extract_json_data("data/products.json")
+            extract_json_data("src/data/products.json")
         )
 
         stores_df = clean_dataframe(
-            extract_json_data("data/stores.json")
+            extract_json_data("src/data/stores.json")
         )
 
         categories_df = clean_dataframe(
-            extract_json_data("data/categories.json")
+            extract_json_data("src/data/categories.json")
         )
 
         suppliers_df = clean_dataframe(
-            extract_json_data("data/suppliers.json")
+            extract_json_data("src/data/suppliers.json")
         )
 
         load_to_mongo(products_df, "products")
